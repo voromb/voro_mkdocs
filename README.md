@@ -1,4 +1,4 @@
-# Voro DAW Documentation
+# Voro DAW Documentacion
 
 Este proyecto contiene la documentación del perfil profesional y los módulos del ciclo superior de Desarrollo de Aplicaciones Web (DAW) de Voro Moran Beneyto, generada automáticamente utilizando MkDocs con el tema Material.
 

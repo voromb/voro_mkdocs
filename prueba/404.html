@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+body {
+    background-color: black;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.notFound {
+    background-image: url("https://inzonedesign.com/wp-content/uploads/2021/02/blog-404-funny-error-pages-1024x472.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 64px); /* Ajusta la altura para que no desconfigure el menú */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+section.notFound h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+div.text {
+    height: 15vh;
+}
+
+div.text a {
+    color: yellow;
+    text-decoration: underline;
+    margin-right: 15px;
+}
+
+div.text a:hover {
+    color: red;
+    text-decoration: none; 
+}
+
+@media only screen and (max-width: 600px) {
+    section.notFound {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    section.notFound h1 {
+        font-size: 20px;
+    }  
+    div.text a {
+        text-decoration: underline;
+        margin-right: 15px;
+    }
+    div.text a:active {
+        color: red;
+        text-decoration: none; 
+    }
+}
+</style>
+
+<section class="notFound">
+    <div class="text">
+        <h1>¡Vaya! <br> He estado buscando por todas partes, pero no puedo encontrar lo que estás buscando... <br> Por favor, vuelve a empezar desde <a href="/" class="yes">INICIO</a></h1>
+    </div>
+</section>
+{% endblock %}

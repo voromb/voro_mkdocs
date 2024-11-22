@@ -1,0 +1,77 @@
+/* extra.css */
+
+/* Estilos para la cabecera */
+.md-header {
+    background-color: #5D4037 !important; /* Fondo marrón oscuro */
+    color: white !important; /* Texto blanco */
+}
+
+.md-header .md-header__title {
+    font-size: 1.5rem !important; /* Tamaño del título */
+    font-weight: bold !important; /* Negrita */
+}
+
+.md-header .md-header__title a {
+    color: white !important; /* Enlaces en blanco */
+    text-decoration: none !important; /* Sin subrayado */
+}
+
+.md-header .md-header__title a:hover {
+    text-decoration: underline !important; /* Subrayado al pasar el ratón */
+}
+
+/* Estilos para la navegación en pestañas */
+.md-tabs {
+    background-color: #795548 !important; /* Fondo marrón */
+}
+
+.md-tabs__link {
+    color: white !important; /* Texto de las pestañas */
+}
+
+.md-tabs__link:hover {
+    background-color: #8D6E63 !important; /* Fondo marrón claro al pasar el ratón */
+}
+
+.md-tabs__link--active {
+    background-color: #4E342E !important; /* Fondo marrón oscuro para la pestaña activa */
+    color: #FFCCBC !important; /* Texto de la pestaña activa */
+}
+
+/* Ajustes adicionales */
+.md-main {
+    margin-top: 4rem !important; /* Ajusta el margen superior para el contenido principal */
+}
+
+/* Ocultar el título "Inicio" en la parte izquierda */
+.md-nav__title {
+    display: none !important;
+}
+
+/* Estilos personalizados para el footer */
+.md-footer {
+    background-color: #5D4037 !important; /* Fondo marrón oscuro */
+    color: white !important; /* Texto blanco */
+    padding: 1rem !important;
+    text-align: center !important; /* Alinea el contenido al centro */
+}
+
+.md-footer__inner {
+    display: flex !important;
+    justify-content: center !important; /* Centra el contenido horizontalmente */
+    align-items: center !important;
+}
+
+.md-footer__inner p {
+    margin: 0 !important;
+}
+
+.md-footer__inner a {
+    color: white !important; /* Color de los enlaces */
+    text-decoration: none !important;
+    margin: 0 0.5rem !important;
+}
+
+.md-footer__inner a:hover {
+    text-decoration: underline !important;
+}

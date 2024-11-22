@@ -1,0 +1,70 @@
+site_name: Voro DAW
+theme:
+  name: material
+  favicon: img/favicon.png
+  language: es
+  font:
+    code: Roboto Mono
+  palette:
+    - scheme: default
+      primary: 'indigo'
+      accent: 'indigo'
+      background: 'white'
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: 'indigo'
+      accent: 'indigo'
+      background: 'black'
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - navigation.tabs  # Habilita la navegación en pestañas en la parte superior
+    - navigation.footer
+markdown_extensions:
+  - footnotes
+extra_css:
+  - extra.css
+extra_javascript:
+  - extra.js
+
+nav:
+  - Inicio: index.md
+  - Inglés: ingles.md
+  - Base de Datos: base_de_datos.md
+  - Entornos de Desarrollo: entornos_de_desarrollo.md
+  - Lenguaje de Marcas: lenguaje_de_marcas.md
+  - Programación: programacion.md
+  - Proyecto Intermodular: proyecto_intermodular.md
+  - Sistemas Informáticos: sistemas_informaticos.md
+
+extra:
+  consent:
+    title: Consentimiento de Cookies
+    description: >- 
+      Utilizamos cookies para mejorar su experiencia en nuestro sitio web. 
+      Las cookies nos permiten recordar sus preferencias y visitas anteriores, 
+      así como medir la efectividad de nuestra documentación. Al aceptar, 
+      nos ayuda a mejorar continuamente nuestra documentación y servicios.
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/?lang=es
+      name: twitter
+    - icon: fontawesome/brands/docker
+      link: https://www.docker.com/
+      name: docker
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/?locale=es_ES
+      name: facebook
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/
+      name: instagram
+    
+repo_url: https://github.com/voromb/MKdocs
+repo_name: GitHub
+
+copyright: Copyright &copy; 2024-2025 Voro Moran Beneyto. Si encuentras útil esta página, por favor considera recomendarla a otros. ¡Gracias!
+
+  
